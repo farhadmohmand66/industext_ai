@@ -7,6 +7,15 @@ Intelligence for industrial maintenance logs. This project uses a BERT-based Nam
 - A BERT training pipeline to produce a deployable NER model
 - Dockerized deployment
 
+## About
+
+- Description: BERT-powered NER for industrial maintenance logs with Streamlit UI, batch processing, and Dockerized deployment. Extracts Faults, Components, Actions, and Equipment from unstructured text.
+- Website: https://github.com/farhadmohmand66/industext_ai
+
+## Topics
+
+industrial-maintenance, industrial-text, nlp, ner, bert, transformers, pytorch, streamlit, docker, spacy, event-extraction
+
 ## Table of Contents
 
 - Features
@@ -20,6 +29,7 @@ Intelligence for industrial maintenance logs. This project uses a BERT-based Nam
 - Project Structure
 - Configuration and Environment
 - Tech Stack
+- Resources
 - License
 
 ---
@@ -228,6 +238,20 @@ Troubleshooting:
 - Streamlit
 - Optional: spaCy, RapidFuzz (for rule-based bootstrapping)
 - Docker
+
+---
+
+## Resources
+
+- README: https://github.com/farhadmohmand66/industext_ai#readme
+- Screenshots: images/GUI_screenshot.PNG (English), images/GUI_screenshot_cn.PNG (中文)
+- Data schema: schema.md
+- Docker setup: Dockerfile
+- Requirements: requirements.txt
+- App entry point: app.py
+- NER training pipeline: train_bert.py
+- Rule-based extraction (bootstrapping): extract_ner.py
+- Example batch input: test_batch_logs.json
 
 ---
 
