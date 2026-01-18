@@ -1,0 +1,48 @@
+{
+  "_name_or_path": "bert-base-uncased",
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "O",
+    "1": "B-ACTION",
+    "2": "I-ACTION",
+    "3": "B-COMPONENT",
+    "4": "I-COMPONENT",
+    "5": "B-EQUIPMENT",
+    "6": "I-EQUIPMENT",
+    "7": "B-FAULT",
+    "8": "I-FAULT"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-ACTION": 1,
+    "B-COMPONENT": 3,
+    "B-EQUIPMENT": 5,
+    "B-FAULT": 7,
+    "I-ACTION": 2,
+    "I-COMPONENT": 4,
+    "I-EQUIPMENT": 6,
+    "I-FAULT": 8,
+    "O": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.30.2",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}

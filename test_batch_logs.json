@@ -1,0 +1,14 @@
+[
+  {
+    "log_id": "001",
+    "text": "Abnormal temperature increase was detected in the hydraulic pump. The sealing component showed signs of leakage. The seal was replaced and the pump was tested successfully."
+  },
+  {
+    "log_id": "002",
+    "text": "During routine inspection, vibration was observed in the cooling fan. The fan blade component was misaligned. Alignment adjustment was performed and the equipment returned to normal operation."
+  },
+  {
+    "log_id": "003",
+    "text": "The conveyor motor produced abnormal noise during startup. Inspection found bearing wear and insufficient lubrication. Lubrication was applied and the motor was restarted."
+  }
+]

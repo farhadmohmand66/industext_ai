@@ -1,0 +1,20 @@
+.git
+.gitignore
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.ipynb
+.vscode/
+.idea/
+
+# Data and large artifacts not needed in the image
+# data/
+# output/results/
+# output/ner_model/checkpoint-*/
+
+# Local test files
+test_batch_logs.json
