@@ -13,6 +13,7 @@ Intelligence for industrial maintenance logs. This project uses a BERT-based Nam
 - Quick Start (Local)
 - Docker
 - Using the Streamlit App
+- Screenshots
 - Batch File Formats
 - Training a NER Model
 - Rule-based NER Extraction (Bootstrapping)
@@ -99,6 +100,18 @@ Model location:
 
 ---
 
+## Screenshots
+
+- English UI:
+
+![Streamlit UI (English)](images/GUI_screenshot.PNG)
+
+- 中文界面 (Chinese UI):
+
+![Streamlit UI (中文)](images/GUI_screenshot_cn.PNG)
+
+---
+
 ## Batch File Formats
 
 TXT format:
@@ -180,6 +193,9 @@ Recommended:
 │  └─ logs.json             # Example input for extraction/training (user-provided)
 ├─ output/
 │  └─ ner_model/            # Trained model artifacts loaded by app.py
+├─ images/                  # Screenshots of the Streamlit UI
+│  ├─ GUI_screenshot.PNG    # English UI
+│  └─ GUI_screenshot_cn.PNG # Chinese UI
 ├─ test_batch_logs.json     # Example batch JSON for the UI
 ├─ requirements.txt         # Python dependencies
 ├─ Dockerfile               # Dockerized deployment
